@@ -1,0 +1,493 @@
+/* Global styles 
+------------------------------------*/
+/* body */
+html {
+  position: relative;
+    width: 1600px;
+    height: 2494px;
+    height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'Pacifico';
+  src: url('../fonts/Pacifico/Q_Z9mv4hySLTMoMjnk_rCXYhjbSpvc47ee6xR_80Hnw.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Raleway Light';
+  src: url('../fonts/Raleway/-_Ctzj9b56b8RgXW8FAriQzyDMXhdD8sAj6OAJTFsBI.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Raleway Regular';
+  src: url('../fonts/Raleway/QAUlVt1jXOgQavlW5wEfxQLUuEpTyoUstqEm5AMlJo4.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Raleway SemiBold';
+  src: url('../fonts/Raleway/xkvoNo9fC8O2RDydKj12bwzyDMXhdD8sAj6OAJTFsBI.woff2') format('woff2');
+}
+
+/* Header styles - Focus
+------------------------------------*/
+header {
+    background: url("../img/large-banner-image.png") ;
+    text-align: center;
+    height: 700px;
+}
+
+#focus-img {
+    position: absolute;
+    left: 680px;
+    top: 115px;
+}
+
+#focus-txt {
+    position: absolute;
+    left: 772px;
+    top: 121px;
+    font-family: 'Pacifico';
+    font-size: 60px;
+    line-height: 56px;
+}
+
+#letter-cover{
+    position: absolute;
+    left: 918px;
+    top: 145px;
+    height: 32px;
+    width: 32px;
+    background-color:  #fdfdfd;
+}
+
+#landing-txt {
+    position: absolute;
+    left: 483px;
+    top: 243px;
+    font-family: 'Raleway Light';
+    font-size: 36px;
+    line-height: 35px;
+    color:  #222222;
+    
+}
+
+#down-arrow-img {
+    position: absolute;
+    left: 774px;
+    top: 331px;
+}
+
+
+/* Features
+------------------------------------*/
+.features {
+    background: #f4f4f4;
+    height: 496px;
+}
+
+#iphone-img{
+    position: absolute;
+    left: 572px;
+    top: 403px;
+}
+
+#white-dot-1-img{
+    position: absolute;
+    left: 847px;
+    top: 605px;
+    border-radius: 100%;
+    border-width: 0px;
+
+}
+
+#white-dot-2-img{
+    position: absolute;
+    left: 717px;
+    top: 695px;
+    border-radius: 100%;
+    border-width: 0px;
+
+}
+
+#white-dot-3-img{
+    position: absolute;
+    left: 718px;
+    top: 905px;
+    border-radius: 100%;
+    border-width: 0px;
+
+}
+
+#black-dot-img{
+    position: absolute;
+    left: 852px;
+    top: 808px;
+    border-radius: 100%;
+    border-width: 0px;
+
+}
+
+#cursor-img{
+    position: absolute;
+    left: 865px;
+    top: 825px;
+}
+
+#angled-line-img{
+    position: absolute;
+    left: 867px;
+    top: 825px;
+}
+
+#great-feature-1-txt{
+    position: absolute;
+    left: 272px;
+    top: 759px;
+    font-family: 'Raleway SemiBold';
+    font-size: 22px;
+    line-height: 18px;
+    color:  #222222;
+}
+
+#great-feature-text-1-txt{
+    position: absolute;
+    left: 273px;
+    top: 799px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    color:  #848484;
+    font-size: 16px;
+    line-height: 26px;
+    width: 295px;
+}
+
+#great-feature-2-txt{
+    position: absolute;
+    left: 1029px;
+    top: 759px;
+    font-family: 'Raleway SemiBold';
+    font-size: 22px;
+    line-height: 18px;
+    color:  #222222;
+}
+
+#great-feature-text-2-txt{
+    position: absolute;
+    left: 1030px;
+    top: 799px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    color:  #848484;
+    font-size: 16px;
+    line-height: 26px;
+    width: 295px;
+    
+}
+
+#another-great-feature-1-txt{
+    position: absolute;
+    left: 272px;
+    top: 929px;
+    font-family: 'Raleway SemiBold';
+    font-size: 22px;
+    line-height: 18px;
+    color:  #222222;
+}
+
+#another-great-feature-text-1-txt{
+    position: absolute;
+    left: 273px;
+    top: 969px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    color:  #848484;
+    font-size: 16px;
+    line-height: 26px;
+    width: 295px;
+}
+
+#another-great-feature-2-txt{
+    position: absolute;
+    left: 1029px;
+    top: 929px;
+    font-family: 'Raleway SemiBold';
+    font-size: 22px;
+    line-height: 18px;
+    color:  #222222;
+}
+
+#another-great-feature-text-2-txt{
+    position: absolute;
+    left: 1030px;
+    top: 969px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    color:  #848484;
+    font-size: 16px;
+    line-height: 26px;
+    width: 295px;
+}
+
+/* Get the App
+------------------------------------*/
+.gettheapp {
+    background: #e3e3e3;
+    height: 427px;
+}
+
+#gettheapp-txt{
+    position: absolute;
+    left: 210px;
+    top: 1256px;
+    font-family: 'Raleway SemiBold';
+    font-size: 22px;
+    line-height: 18px;
+    color:  #222222;
+}
+
+#gettheapp-text-txt{
+    position: absolute;
+    left: 209px;
+    top: 1297px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    color:  #848484;
+    font-size: 16px;
+    line-height: 26px;
+    width: 533px;
+}
+
+#video-img{
+    position: absolute;
+    left: 888px;
+    top: 1256px;
+}
+
+#play-img{
+    position: absolute;
+    left: 908px;
+    top: 1499px;
+}
+
+#video-play-bar-img{
+    position: absolute;
+    left: 997px;
+    top: 1499px;
+}
+
+#apple-img{
+    position: absolute;
+    left: 210px;
+    top: 1423px;
+}
+
+#android-img{
+    position: absolute;
+    left: 298px;
+    top: 1423px;
+}
+
+#windows-img{
+    position: absolute;
+    left: 386px;
+    top: 1423px;
+}
+
+#cursor-2-img{
+    position: absolute;
+    left: 421px;
+    top: 1464px;
+}
+
+
+/* Testimonials
+------------------------------------*/
+.testimonials {
+    background: #f4f4f4;
+    height: 497px;
+}
+
+#testimonials-text-txt{
+    position: absolute;
+    left: 390px;
+    top: 1682px;
+    font-family: 'Raleway Regular';
+    font-size: 24px;
+    line-height: 24px;
+    color:  #000000;
+}
+
+#testimonials-bold-txt{
+    position: absolute;
+    left: 734px;
+    top: 1732px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    color:  #000000;
+}
+
+#testimonials-txt{
+    position: absolute;
+    left: 817px;
+    top: 1732px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color:  #000000;
+}
+
+#people-img{
+    position: absolute;
+    left: 0px;
+    top: 1802px;
+}
+
+#active-person-img{
+    position: absolute;
+    left: 914px;
+    top: 1882px;
+}
+
+/* Get in touch
+------------------------------------*/
+.getintouch {
+    background: #f4f4f4;
+    height: 240px;
+}
+
+#hi-txt{
+    position: absolute;
+    left: 680px;
+    top: 2179px;
+    font-family: 'Raleway SemiBold';
+    font-size: 24px;
+    line-height: 24px;
+}
+
+#hi-text-txt{
+    position: absolute;
+    left: 556px;
+    top: 2219px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    color:  #848484;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+#twitter-img{
+    position: absolute;
+    left: 672px;
+    top: 2265px;
+}
+
+#facebook-img{
+    position: absolute;
+    left: 716px;
+    top: 2265px;
+}
+
+#pinterest-img{
+    position: absolute;
+    left: 760px;
+    top: 2265px;
+}
+
+#google-img{
+    position: absolute;
+    left: 804px;
+    top: 2265px;
+}
+
+#linkedin-img{
+    position: absolute;
+    left: 848px;
+    top: 2265px;
+}
+
+#youtube-img{
+    position: absolute;
+    left: 892px;
+    top: 2265px;
+}
+
+#cursor-3-img{
+    position: absolute;
+    left: 776px;
+    top: 2286px;
+}
+
+/* Footer styles*/
+footer {
+  background: #e3e3e3;
+  height: 134px;
+}
+
+#contact-txt{
+    position: absolute;
+    left: 527px;
+    top: 2420px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    color:  #848484;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+#download-txt{
+    position: absolute;
+    left: 620px;
+    top: 2420px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    color:  #848484;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+#press-txt{
+    position: absolute;
+    left: 728px;
+    top: 2420px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    color:  #848484;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+#email-txt{
+    position: absolute;
+    left: 804px;
+    top: 2420px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    color:  #848484;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+#support-txt{
+    position: absolute;
+    left: 878px;
+    top: 2420px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    color:  #848484;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+#privacy-txt{
+    position: absolute;
+    left: 972px;
+    top: 2420px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    color:  #848484;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
